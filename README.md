@@ -1,101 +1,106 @@
+# Store Management & Billing System
 
-```markdown
-# Store Management System
+A simple **Store Management and Billing System** built using **Python and SQLite**.
+The system allows a store owner to manage inventory and customers to purchase products while automatically generating a bill and updating stock.
 
-A simple **Store Management and Billing System** built using **Python and SQLite**.  
-The system allows a store owner to manage inventory and customers to purchase products with automatic bill generation.
+The store used in this system is **Pratiti Mart**.
 
-## Features
+---
 
-### Owner Panel
-- Add new products
-- View inventory
-- Update product stock
-- Delete products
-- Password protected owner login
+# Features
 
-### Customer Panel
-- View available products
-- Buy products
-- Automatic bill generation
-- Stock updates after purchase
+## Owner Panel
 
-## Technologies Used
+* Password protected owner login
+* Add new products to inventory
+* View available products
+* Update product stock
+* Delete products from inventory
 
-- Python
-- SQLite
-- SQL Queries
-- CLI (Command Line Interface)
+## Customer Panel
 
-## Project Structure
+* View available products
+* Buy products
+* Automatic bill generation
+* Automatic stock update after purchase
+
+---
+
+# Technologies Used
+
+* Python
+* SQLite
+* SQL Queries
+* Command Line Interface (CLI)
+
+---
+
+# Project Structure
 
 ```
-
-store_management_system/
+store-management-system
 │
 ├── main.py
 ├── owner.py
 ├── customer.py
 ├── database.py
 └── store.db
-
 ```
 
-## How to Run
+---
+
+# How to Run the Project
 
 1. Clone the repository
 
 ```
-
-git clone [https://github.com/yourusername/store-management-system.git](https://github.com/yourusername/store-management-system.git)
-
+git clone https://github.com/yourusername/store-management-system.git
 ```
 
-2. Navigate to the folder
+2. Navigate to the project folder
 
 ```
-
 cd store-management-system
-
 ```
 
 3. Run the program
 
 ```
-
 python main.py
-
-```
-
-## Example Bill
-
-```
-
-================================
-PRANESH MART
-============
-
-## Date: 09-03-2026
-
-Product: Milk
-Price: 30
-Quantity: 2
------------
-
-# TOTAL: 60
-
-# Thank you for shopping!
-
-```
-
-## Future Improvements
-
-- Cart system for multiple products
-- Sales reports and analytics
-- Low stock alerts
-- GUI version using Tkinter
 ```
 
 ---
 
-If you want, I can also give you a **much better README that looks very impressive on GitHub** (with sections like **Screenshots, Architecture, and Features**) which makes the project look **much more professional.**
+# Example Bill
+
+```
+================================
+        PRATITI MART
+================================
+Date: 09-03-2026
+--------------------------------
+Product: Milk
+Price: 30
+Quantity: 2
+--------------------------------
+TOTAL: 60
+================================
+Thank you for shopping!
+================================
+```
+
+---
+
+# Future Improvements
+
+* Cart system for multiple products
+* Sales reports and analytics
+* Low stock alerts
+* Receipt file generation
+* GUI version using Tkinter
+
+---
+
+# Author
+
+Developed as a Python and SQLite project to demonstrate inventory management, billing logic, and database integration for a simple store system.
